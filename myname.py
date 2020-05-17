@@ -1,3 +1,4 @@
 # myname.py
 def get_name():
-    return "Nate Luke Sullivan"
+    name = input("What is your name? ")
+    return name
