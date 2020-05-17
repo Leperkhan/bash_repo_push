@@ -1,3 +1,5 @@
 # hello.py
+import myname
 
-print("Hello!")
+name = myname.get_name()
+print("Hello! {}".format(name))
